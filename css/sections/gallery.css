@@ -1,0 +1,20 @@
+/*===== Start Gallery =====*/
+.gallery{
+    padding: 80px 0;
+    background-color: rgba(241, 187, 0, 0.1);
+}
+
+.gallery h2{
+    color: var(--heading-color);
+    margin-bottom: 50px;
+    font-weight: bold
+}
+
+.gallery h2 span{
+    color: var(--main-color);
+}
+
+.gallery .item img{
+    height: 600px
+}
+/*===== End Gallery =====*/

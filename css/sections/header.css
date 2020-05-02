@@ -1,0 +1,132 @@
+/* === Start Header === */
+header{
+    height: 0
+}
+
+header nav{
+    padding: 35px 0 !important;
+    background: transparent;
+}
+
+header nav .navbar-brand img{
+    width: 40%
+}
+
+header nav.nav-fixed .navbar-brand img{
+    width: 60% !important
+}
+
+header nav .collapse .navbar-nav li.nav-item{
+    margin-left: 15px;
+}
+
+header nav .collapse .navbar-nav li.nav-item a:focus{
+    color: var(--main-color)
+}
+
+header nav .collapse .navbar-nav li.nav-item a{
+    color: #fff;
+    transition: all 0.3s ease
+}
+
+header nav .collapse .navbar-nav li.nav-item a:hover,
+header nav .collapse .navbar-nav li.active a{
+    color: var(--main-color) !important
+}
+
+header nav .collapse .navbar-nav li button:active{
+    background-color: #fff !important
+}
+
+header nav .collapse .navbar-nav li button a,
+header nav .collapse .navbar-nav li button a:hover,
+header nav .collapse .navbar-nav li button a:active{
+    color: var(--main-color) !important
+}
+/* === End Header === */
+/*=== Start Header Fixed ===*/
+header nav.nav-fixed{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    height: 100px;
+    z-index: 22;
+    animation: nav 1 0.8s ease forwards
+}
+
+header nav.nav-fixed .navbar-nav li a{
+    color: #000 !important
+}
+
+header nav.nav-fixed .navbar-nav li.nav-item a:hover,
+header nav.nav-fixed .navbar-nav li.nav-item.active a{
+    color: var(--main-color) !important
+}
+
+header nav.nav-fixed .navbar-nav li button{
+    background-color: var(--main-color);
+}
+
+header nav.nav-fixed .navbar-nav li button span{
+    color: #fff
+}
+/*== Start Button ==*/
+button.main-btn{
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    color: var(--main-color);
+    background-color: #fff;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden
+}
+
+button.main-btn span{
+    position: relative;
+    top: 0px;
+    transition: all 0.3s ease
+}
+
+button.main-btn span.upper {
+    position: absolute;
+    top: -50px;
+    left: 75px;
+}
+
+button.main-btn span i.upper-i{
+    font-size: 22px;
+}
+
+button.main-btn i{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+button.main-btn:hover{
+    background-color: #fff;
+    color: var(--main-color);
+}
+
+button.main-btn:hover span.upper{
+    top: 15px
+}
+
+button.main-btn:hover span{
+    top: 50px
+}
+/*=== End Button ===*/
+/*=== End Header Fixed ===*/
+@keyframes nav{
+    0%{
+        top: -100px;
+        opacity: 0
+    }
+    100%{
+        top: 0px;
+        opacity: 1
+    }
+}

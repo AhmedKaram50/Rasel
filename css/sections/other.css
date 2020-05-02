@@ -1,0 +1,139 @@
+.features-w{
+    background-color: #e4e4e4;
+    padding: 60px 0;
+}
+.features-w p{
+    color: #655e5e;
+    margin-bottom: 40px;
+    color: var(--p-color);
+}
+.features-w h2{
+    text-transform: uppercase;
+}
+.features-w h2 span{
+    color: var(--main-color)
+}
+.features-w .manu .box-1 {
+    text-align: center;
+}
+.features-w .manu .box-1 i {
+    font-size: 56px;
+    padding: 25px;
+    color: var(--main-color);
+    transition: all 0.3s ease;
+    cursor: pointer
+}
+.features-w .manu  p{
+    color: #655e5e;
+    color: var(--p-color);
+}
+.features-w .manu .box-1:hover i{
+    transform: scale(1.2)
+}
+/*end features*/
+/*start who-we-are*/
+.who-we-are h3{
+    color:var(--main-color);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.who-we-are {
+    padding: 80px 0;
+}
+.who-we-are p {
+    color: var(--p-color)
+}
+.who-we-are p span {
+    color: var(--p-color)
+}
+.who-we-are .get-in-con{
+    padding-left:  40px;
+}
+.conec {
+    display: flex;
+    padding: 20px 40px;
+}
+.conec i {
+    font-size: 48px;
+    margin-right: 32px;
+}
+.conec h5{
+    display: block;
+    color:#655e5e;
+        margin-bottom: 14px;
+}
+.get-in-con .social-1{
+    padding: 10px 20px;
+}
+.get-in-con .social-1 a {
+    margin-top: 15px;
+    border-radius: 50%;
+    padding: 6px 13px;
+    margin-right: 5px;
+    font-size: 31px;
+    color: #fff;
+    margin-right: 57px;
+}
+/*END who-we-are*/
+/*strat .get-app*/
+.get-app{
+    padding: 80px 0;
+    background: url(../../images/1096907-cool-dark-background-2560x1600-for-tablet.jpg) center;
+    background-size: cover;
+}
+
+.get-app iframe{
+    padding: 0 60px;
+    margin: 70px 0 10px 0
+}
+
+.get-app h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff
+}
+.get-app p.direct-p{
+    color: #fff;
+    width: 70%;
+    margin: 0 auto
+}
+/**/
+ .download{
+    margin-top: 50px
+}
+
+ .download i{
+    color: #fff
+}
+
+ .download div{
+    margin: 0 20px;
+    font-size: 26px;
+    cursor: pointer;
+    background-color:  rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    transition: 0.3s ease
+}
+
+ .download p{
+     color:#e4e4e4;
+ }
+ .download i{
+    color: var(--main-color)
+}
+
+ .download p{
+    display: inline-block;
+    margin: 0 0 0 5px
+}
+
+ .download div:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/**/
+@media(max-width: 720){
+    iframe{
+        width: 400px;
+    }
+}
