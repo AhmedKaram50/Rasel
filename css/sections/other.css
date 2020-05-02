@@ -103,6 +103,7 @@
     color: #fff;
     width: 70%;
     color: var(--heading-color);
+    margin: 0 auto;
 }
 /**/
  .download{
