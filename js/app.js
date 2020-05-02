@@ -2,7 +2,7 @@ var owl = $('.owl-carousel');
 owl.owlCarousel({
     loop:true,
     nav:true,
-    margin:70,
+    margin:100,
     responsive:{
         0:{
             items:1
@@ -31,7 +31,7 @@ owl.on('mousewheel', '.owl-stage', function (e) {
 window.onscroll = function () {
     let nav = document.querySelector('.navbar'),
         logo = document.getElementById('logo');
-        
+
     if (window.scrollY >= 200) {
         nav.classList.add('nav-fixed');
         logo.setAttribute('src', 'images/Capture.png');

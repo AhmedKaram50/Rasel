@@ -1,6 +1,8 @@
 .features-w{
     background-color: #e4e4e4;
     padding: 60px 0;
+    background: url(../../images/bg.png) center;
+    background-size: cover;
 }
 .features-w p{
     color: #655e5e;
@@ -32,6 +34,10 @@
 }
 /*end features*/
 /*start who-we-are*/
+.who-we-are{
+    background: url(../../images/bg.png) center;
+    background-size: cover;
+}
 .who-we-are h3{
     color:var(--main-color);
     text-transform: uppercase;
@@ -79,7 +85,7 @@
 /*strat .get-app*/
 .get-app{
     padding: 80px 0;
-    background: url(../../images/1096907-cool-dark-background-2560x1600-for-tablet.jpg) center;
+    background: url(../../images/bg.png) center;
     background-size: cover;
 }
 
