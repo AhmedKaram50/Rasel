@@ -97,12 +97,12 @@
 .get-app h2 {
     text-transform: uppercase;
     font-weight: 700;
-    color: #fff
+    color: var(--heading-color);
 }
 .get-app p.direct-p{
     color: #fff;
     width: 70%;
-    margin: 0 auto
+    color: var(--heading-color);
 }
 /**/
  .download{
