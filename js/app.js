@@ -34,7 +34,7 @@ window.onscroll = function () {
         
     if (window.scrollY >= 200) {
         nav.classList.add('nav-fixed');
-        logo.setAttribute('src', 'images/Capture.png');
+        logo.setAttribute('src', 'images/logo-e.png');
     } else{
         nav.classList.remove('nav-fixed');
         logo.setAttribute('src', 'images/logo-emp.png');
