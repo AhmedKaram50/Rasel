@@ -84,26 +84,19 @@
 /*END who-we-are*/
 /*strat .get-app*/
 .get-app{
-    padding: 80px 0;
-    background: url(../../images/bg.png) center;
-    background-size: cover;
-}
-
-.get-app iframe{
-    padding: 0 60px;
-    margin: 70px 0 10px 0
+    padding: 80px 0 80px 0;
+    background: rgb(241,187,0);
+    background: linear-gradient(90deg, rgba(241,187,0,1) 0%, rgba(241,210,0,1) 46%);
 }
 
 .get-app h2 {
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 700;
     color: var(--heading-color);
 }
 .get-app p.direct-p{
-    color: #fff;
-    width: 70%;
+    width: 80%;
     color: var(--heading-color);
-    margin: 0 auto;
 }
 /**/
  .download{
@@ -115,7 +108,7 @@
 }
 
  .download div{
-    margin: 0 20px;
+    margin-right: 20px;
     font-size: 26px;
     cursor: pointer;
     background-color:  rgba(0, 0, 0, 0.6);

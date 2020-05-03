@@ -43,7 +43,7 @@ window.onscroll = function () {
     // For Features 
     let featureBox = document.querySelectorAll('.feature-box');
     
-    if (window.scrollY >= 1000){
+    if (window.scrollY >= 900){
         featureBox.forEach(element => {
             console.log('ahmed')
             element.style.animationPlayState = 'running';

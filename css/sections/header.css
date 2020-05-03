@@ -21,12 +21,13 @@ header nav .collapse .navbar-nav li.nav-item{
 }
 
 header nav .collapse .navbar-nav li.nav-item a:focus{
-    color: var(--main-color)
+    color: #000
 }
 
 header nav .collapse .navbar-nav li.nav-item a{
-    color: #fff;
-    transition: all 0.3s ease
+    color: #000;
+    transition: all 0.3s ease;
+    font-size: 18px
 }
 
 header nav .collapse .navbar-nav li.nav-item a:hover,
@@ -34,14 +35,16 @@ header nav .collapse .navbar-nav li.active a{
     color: var(--main-color) !important
 }
 
-header nav .collapse .navbar-nav li button:active{
-    background-color: #fff !important
+
+header nav .collapse .navbar-nav li button:active,
+header nav .collapse .navbar-nav li button{
+    background-color: var(--main-color) !important
 }
 
 header nav .collapse .navbar-nav li button a,
 header nav .collapse .navbar-nav li button a:hover,
 header nav .collapse .navbar-nav li button a:active{
-    color: var(--main-color) !important
+    color: #fff !important
 }
 /* === End Header === */
 /*=== Start Header Fixed ===*/
@@ -128,5 +131,40 @@ button.main-btn:hover span{
     100%{
         top: 0px;
         opacity: 1
+    }
+}
+
+@media (max-width: 992px){
+    nav{
+        background-color: #fff !important
+    }
+    nav .navbar-collapse{
+        position: relative;
+        z-index: 55;
+    }
+    nav .navbar-collapse ul{
+        background-color: #fff !important
+    }
+    nav .navbar-collapse ul li{
+        margin-bottom: 15px
+    }
+    iframe{
+        width: 400px;
+    }
+    
+}
+
+@media (max-width: 506px){
+    .intro h2{
+        font-size: 35px !important
+    }
+    .intro p{
+        font-size: 16px !important
+    }
+    .intro .intro-info{
+        padding-top: 0 !important
+    }
+    .intro .intro-img{
+        margin-top: 60px !important
     }
 }

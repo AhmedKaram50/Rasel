@@ -1,6 +1,8 @@
 .features{
-    padding: 100px 0 100px 0;
-    overflow: hidden
+    padding: 100px 0 10px 0;
+    overflow: hidden;
+    background: url(../../images/bg.png) center;
+    background-size: cover
 }
 
 .features .features-heading h2{
@@ -21,13 +23,11 @@
     position: relative
 }
 
-.features .feature-box:nth-child(2) .feature-holder{
-    box-shadow: 0px 30px 50px rgba(232, 80, 91, 0.102);
+.features .feature-box{
+    background-color: rgba(255, 255, 255, 0.6);
+    
 }
 
-.features .feature-box .feature-holder:hover{
-    box-shadow: 0px 30px 50px rgba(232, 80, 91, 0.102);
-}
 
 .features .feature-box .feature-holder::before{
     content: '';
