@@ -34,10 +34,10 @@ window.onscroll = function () {
 
     if (window.scrollY >= 200) {
         nav.classList.add('nav-fixed');
-        logo.setAttribute('src', 'images/logo-e.png');
+        logo.setAttribute('src', 'images/logo-yellow.png');
     } else{
         nav.classList.remove('nav-fixed');
-        logo.setAttribute('src', 'images/logo-emp.png');
+        logo.setAttribute('src', 'images/logo-yellow.png');
     }
 
     // For Features 
