@@ -8,16 +8,20 @@ header nav{
     background: transparent;
 }
 
+header nav .navbar-brand{
+    width: 100px
+}
+
 header nav .navbar-brand img{
-    width: 40%
+    width: 100%
 }
 
 header nav.nav-fixed .navbar-brand img{
-    width: 35% !important
+    width: 100% !important
 }
 
 header nav .collapse .navbar-nav li.nav-item{
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 header nav .collapse .navbar-nav li.nav-item a:focus{
@@ -27,7 +31,8 @@ header nav .collapse .navbar-nav li.nav-item a:focus{
 header nav .collapse .navbar-nav li.nav-item a{
     color: #000;
     transition: all 0.3s ease;
-    font-size: 18px
+    font-size: 15px;
+    font-weight: bold;
 }
 
 header nav .collapse .navbar-nav li.nav-item a:hover,

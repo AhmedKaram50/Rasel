@@ -25,6 +25,11 @@
     transition: all 0.3s ease;
     cursor: pointer
 }
+.features-w .manu .box-1 h5{
+    font-size: 24px;
+    color: var(--heading-color);
+    line-height: 1.6
+}
 .features-w .manu  p{
     color: #655e5e;
     color: var(--p-color);
@@ -43,6 +48,7 @@
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 15px;
+    margin-right: 60px;
 }
 .who-we-are {
     padding: 80px 0;
@@ -67,7 +73,7 @@
 .conec h5{
     display: block;
     color:#655e5e;
-        margin-bottom: 14px;
+    margin-bottom: 20px;
 }
 .get-in-con .social-1{
     padding: 10px 20px;

@@ -49,7 +49,9 @@
 
 .features .feature-box .feature-holder .feature-info h4{
     color: var(--heading-color);
-    margin-top: 15px
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 22px
 }
 
 .features .feature-box .feature-holder .feature-info p{
@@ -106,12 +108,25 @@
 .features .feature-box:nth-child(2){
     animation: featuresDown 1s 1 ease forwards;
 }
+.features .feature-box:nth-child(3){
+    animation: featuresRight 1s 1 ease forwards;
+}
+.features .feature-box:nth-child(4){
+    animation: featuresLeft 1s 1 ease forwards;
+}
+.features .feature-box:nth-child(5){
+    animation: featuresDown 1s 1 ease forwards;
+}
 .features .feature-box:last-child{
     animation: featuresRight 1s 1 ease forwards;
 }
 
 .features .feature-box:first-child,
 .features .feature-box:nth-child(2),
+.features .feature-box:nth-child(3),
+.features .feature-box:nth-child(4),
+.features .feature-box:nth-child(5),
+.features .feature-box:nth-child(6),
 .features .feature-box:last-child{
     position: relative;
     animation-play-state: paused;
