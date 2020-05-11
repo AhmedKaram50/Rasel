@@ -52,29 +52,29 @@
     margin: 15px
 }
 
-.intro .meza ul{
+.meza ul{
     margin-top: 40px;
     padding: 0 0 0 10px;
     list-style: none
 }
 
-.intro .meza ul li{
+.meza ul li{
     font-size: 18px;
     margin-bottom: 10px;
     margin-right: 100px
 }
 
-.intro .meza ul li p{
+.meza ul li p{
     display: inline-block;
 }
 
-.intro .meza ul li span{
+.meza ul li span{
     font-size: 12px;
     margin-left: 6px;
     color: rgba(0, 0, 0, 0.7)
 }
 
-.intro .meza ul li{
+.meza ul li{
     color: #fff
 }
 
