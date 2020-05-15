@@ -48,10 +48,10 @@
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 15px;
-    margin-right: 60px;
+    margin-right: 134px;
 }
 .who-we-are {
-    padding: 80px 0;
+    padding: 80px 0 20px 0; 
 }
 .who-we-are p {
     color: var(--p-color);
@@ -217,4 +217,46 @@
 .form-holder button:hover,
 .form-holder button:active{
     background-color: var(--main-color);
+}
+
+.join-us{
+    padding: 100px
+}
+
+.join-us .join-heading h1{
+    margin-bottom: 60px
+}
+
+.join-us .join-heading h1 span{
+    color: var(--main-color);
+    
+}
+
+.join-us .join-box{
+    
+}
+
+.join-us .join-box .join-holder{
+    background-color: var(--main-color);
+    padding: 70px 20px;
+    height: 120%
+}
+
+.join-us .join-box h4{
+    font-size: 30px;
+    color: #5e5e5e;
+    margin-bottom: 28px;
+
+}
+
+.join-us .join-box i{
+    color: var(--main-color);
+    font-size: 35px;
+    margin-top: 30px;
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
 }
