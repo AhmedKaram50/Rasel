@@ -37,11 +37,11 @@
 
 .intro .slider-item p{
     font-size: 25px;
+    width: 85%
 }
 
 .intro p{
     color: #8d8d8d;
-    width: 85%
 }
 
 .intro .intro-slider i{
